@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tronks</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#" class="birdeye"></a>
+      <a href="#" class="logo"></a>
+      <a href="https://twitter.com/tronks_solana" target="_blank" class="twitter"></a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+    </section>
+  </main>
+
+  <footer>
+    <img src="tronks.png" class="tronks">
+  </footer>
+  <style>
+    body {
+        height: 100vh;
+        background: #b4d9d9;
+        background-image: url('bg.jpg');
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .birdeye {
+        position: absolute;
+        display: block; 
+        top: 25px;
+        left: 50px;
+        height: 75px;
+        width: 300px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-image: url('by.png');
+    }
+    .logo {
+        position: absolute;
+        display: block; 
+        top: 25px;
+        left: calc(50vw - 150px);
+        height: 75px;
+        width: 300px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-image: url('logo.png');
+    }
+    .twitter {
+        position: absolute;
+        display: block; 
+        top: 25px;
+        left: calc(100vw - 350px);
+        height: 75px;
+        width: 300px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-image: url('twitr.png');
+    }
+    .tronks {
+        position: absolute;
+        top: calc(100vh - 220px);
+        left: 50px;
+        width: 300px;
+        height: 300px;
+        transition: all 0.1s ease-in-out;
+    }
+    .tronks:hover {
+        left: 25px;
+        height: 280px;
+        width: 350px;
+    }
+    @media (max-width: 1024px) {
+        .birdeye {
+        position: absolute;
+        display: block; 
+        top: 100px;
+        left: 0px;
+        height: 75px;
+        width: 50%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-image: url('by.png');
+        }
+        .logo {
+            position: absolute;
+            display: block; 
+            top: 25px;
+            left: calc(50vw - 150px);
+            height: 75px;
+            width: 300px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-image: url('logo.png');
+        }
+        .twitter {
+            position: absolute;
+            display: block; 
+            top: 100px;
+            left: 50%;
+            height: 75px;
+            width: 50%;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-image: url('twitr.png');
+        }
+        .tronks {
+            position: absolute;
+            top: calc(100vh - 140px);
+            left: 20px;
+            width: 200px;
+            height: 200px;
+        }
+    }
+  </style>
+</body>
+</html>
